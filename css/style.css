@@ -1,0 +1,125 @@
+html, body {
+    margin: 10px 50px;
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+/*    background-repeat: no-repeat;*/
+    background-position: center;
+}
+
+#menu {
+    position: absolute;
+    line-height: 30px;
+    right: 10px;
+}
+
+#header {
+/*    background-color:white;*/
+    color:black;
+    text-align:center;
+    line-height:90px;
+    height: 100px;
+}
+
+#left {
+    text-align: center;
+    line-height:30px;
+/*    background-color:white;*/
+    height:100%;
+    width:20%;
+    float:left;
+}
+
+#mid {
+/*    background-color: white;*/
+    width:56%;
+    height:100%;
+    float:left;
+    text-align: justify;
+}
+
+#right {
+    line-height:30px;
+/*    background-color:white;*/
+    height:100%;
+    width:20%;
+    float:right;
+}
+
+#footer {
+    height: 40px;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+.image-blurred-edge {
+    background-image: url('http://lorempixel.com/200/200/city/9');
+    width: 200px;
+    height: 200px;
+     you need to match the shadow color to your background or image border for the desired effect
+    box-shadow: 0 0 8px 8px white inset;
+}
+
+.side-img {
+    width: 150px;
+    border: solid;
+    margin-bottom: 120px;
+    
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+
+.left-img {
+    margin-left: -100px;
+}
+
+.side-img-alt {
+    width: 150px;
+    border: solid;
+    margin-bottom: 120px;
+    
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+}
+
+.right-img {
+    margin-left: 70px;
+}
+
+p {
+    line-height: 1.7em;
+    font-size: 1.3em;
+    color: greenyellow;
+}
+
+h1 {
+    color: orangered;
+}
+
+td {
+    padding: 5px 10px;
+    color: white;
+}
+
+#map {
+    width: 500px;
+    height: 400px;
+}
+
+#shair_img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.spacer {
+    height: 25px;
+}
